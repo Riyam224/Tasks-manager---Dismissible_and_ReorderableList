@@ -75,7 +75,7 @@ This project uses only Flutter’s core libraries, so no extra packages are requ
 ▶️ Getting Started
 
 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/Riyam224/Tasks-manager---Dismissible_and_ReorderableList.git
 cd task_manager
 

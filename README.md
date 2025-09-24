@@ -1,49 +1,101 @@
-# 📝 Task Manager App (Flutter)
 
-A simple **Task Manager** built with Flutter that allows users to:
+# 📝 Tasks Manager
 
-- ✅ Mark tasks as complete with a checkbox (strikethrough style)  
-- 🔄 Reorder tasks by dragging  
-- 🗑️ Swipe to delete tasks with a **confirmation dialog**  
-- ↩️ Undo deletions using **SnackBar**  
-- 🎨 Clean UI with pastel background and card-style tasks  
+A simple and elegant **Flutter Task Manager App** that helps you organize your daily tasks with ease.  
+This project demonstrates **Flutter UI**, **state management with StatefulWidgets**, and common task operations like **adding, deleting, reordering, and completing tasks**.
+
+---
+
+## 📸 Demo
+
+![Demo](screenshots/demo.gif)
 
 ---
 
 ## 🚀 Features
 
-- **ReorderableListView** → drag tasks to rearrange  
-- **Dismissible** → swipe left to delete  
-- **AlertDialog** → confirm before deleting  
-- **SnackBar** → undo delete  
-- **Checkbox** → toggle task completion  
+- ✅ **Task List Display** – Preloaded daily routine tasks.  
+- 🔄 **Reorderable List** – Drag & drop tasks to change their order.  
+- ❌ **Swipe-to-Delete** – Delete tasks with a swipe gesture.  
+- 🗑️ **Delete Confirmation** – Prevent accidental deletion with a confirmation dialog.  
+- ↩️ **Undo Deletion** – Easily undo deleted tasks via `SnackBar`.  
+- ✔️ **Mark Completed** – Tick tasks as completed with a checkbox (with strikethrough effect).  
+- 🎨 **Modern UI** – Clean and light design with card-based task tiles.
 
 ---
 
-## 🎥 Demo
+## 🏗️ Project Structure
 
-Here’s how the app looks in action:  
-
-![Task Manager Demo](task_manager.gif)
+task_manager/
+├── lib/
+│   ├── main.dart        # Entry point of the app
+│   └── home_view.dart   # Main screen containing task list and logic
+├── screenshots/
+│   └── demo.gif         # Project demo animation
+├── test/                # Unit & widget tests
+├── android/             # Android native files
+├── ios/                 # iOS native files
+├── web/                 # Web support
+├── windows/             # Windows support
+├── macos/               # macOS support
+├── linux/               # Linux support
+├── pubspec.yaml         # Dependencies & assets configuration
+└── README.md            # Project documentation
 
 ---
 
-## 📂 Installation
+## 🛠️ Code Overview
 
-1. Clone this repository:
+### `main.dart`
 
-   ```bash
-   git clone https://github.com/yourusername/task_manager_flutter.git
+The entry point of the app, setting up the `MaterialApp` and loading the **HomeView**.
 
+```dart
+void main() {
+  runApp(const TasksManagerApp());
+}
 
-2. Navigate to the project:
+home_view.dart
 
-cd task_manager_flutter
+Implements the task list screen with:
+ • ReorderableListView for drag & drop reordering
+ • Dismissible widget for swipe-to-delete
+ • Checkbox to mark tasks completed
+ • SnackBar for undo functionality
+ • Custom AppBar and card-based UI
 
-3. Get dependencies:
+⸻
+
+📦 Dependencies
+
+This project uses only Flutter’s core libraries, so no extra packages are required.
+
+⸻
+
+▶️ Getting Started
+
+1️⃣ Clone the repository
+
+git clone https://github.com/Riyam224/Tasks-manager---Dismissible_and_ReorderableList.git
+cd task_manager
+
+2️⃣ Install dependencies
 
 flutter pub get
 
-4. Run the app:
+3️⃣ Run the app
 
 flutter run
+
+
+⸻
+
+🤝 Contributing
+
+Feel free to fork this repo and submit pull requests. Suggestions and improvements are always welcome!
+
+⸻
+
+
+
+

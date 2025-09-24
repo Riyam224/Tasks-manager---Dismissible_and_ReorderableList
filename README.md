@@ -1,4 +1,3 @@
-
 # 📝 Tasks Manager
 
 A simple and elegant **Flutter Task Manager App** that helps you organize your daily tasks with ease.  
@@ -20,13 +19,13 @@ This project demonstrates **Flutter UI**, **state management with StatefulWidget
 - 🗑️ **Delete Confirmation** – Prevent accidental deletion with a confirmation dialog.  
 - ↩️ **Undo Deletion** – Easily undo deleted tasks via `SnackBar`.  
 - ✔️ **Mark Completed** – Tick tasks as completed with a checkbox (with strikethrough effect).  
-- 🎨 **Modern UI** – Clean and light design with card-based task tiles.
+- 🎨 **Modern UI** – Clean and light design with card-based task tiles.  
 
 ---
 
 ## 🏗️ Project Structure
 
-task_manager/
+Tasks-manager—Dismissible_and_ReorderableList/
 ├── lib/
 │   ├── main.dart        # Entry point of the app
 │   └── home_view.dart   # Main screen containing task list and logic
@@ -58,17 +57,17 @@ void main() {
 home_view.dart
 
 Implements the task list screen with:
- • ReorderableListView for drag & drop reordering
- • Dismissible widget for swipe-to-delete
- • Checkbox to mark tasks completed
- • SnackBar for undo functionality
- • Custom AppBar and card-based UI
+	•	ReorderableListView for drag & drop reordering
+	•	Dismissible widget for swipe-to-delete
+	•	Checkbox to mark tasks completed
+	•	SnackBar for undo functionality
+	•	Custom AppBar and card-based UI
 
 ⸻
 
 📦 Dependencies
 
-This project uses only Flutter’s core libraries, so no extra packages are required.
+This project uses only Flutter core libraries, so no extra packages are required.
 
 ⸻
 
@@ -77,7 +76,7 @@ This project uses only Flutter’s core libraries, so no extra packages are requ
 1️⃣ Clone the repository
 
 git clone https://github.com/Riyam224/Tasks-manager---Dismissible_and_ReorderableList.git
-cd task_manager
+cd Tasks-manager---Dismissible_and_ReorderableList
 
 2️⃣ Install dependencies
 
@@ -92,10 +91,7 @@ flutter run
 
 🤝 Contributing
 
-Feel free to fork this repo and submit pull requests. Suggestions and improvements are always welcome!
+Feel free to fork this repo and submit pull requests.
+Suggestions and improvements are always welcome! 🚀
 
 ⸻
-
-
-
-
